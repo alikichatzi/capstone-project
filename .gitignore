@@ -1,0 +1,22 @@
+# --- Ασφάλεια (Το πιο σημαντικό) ---
+# Αγνοούμε όλα τα κλειδιά της Google (Service Account Keys)
+*.json
+
+# --- Αρχεία Python ---
+# Αγνοούμε φακέλους που δημιουργεί αυτόματα η Python (δεν χρειάζονται στο Git)
+__pycache__/
+*.pyc
+
+# --- Jupyter Notebooks ---
+# Αγνοούμε τα αυτόματα checkpoints των notebooks
+.ipynb_checkpoints/
+
+# --- Αρχεία Συστήματος ---
+# Αγνοούμε αρχεία ρυθμίσεων του Mac/Windows
+.DS_Store
+Thumbs.db
+
+# --- Virtual Environments ---
+# Αγνοούμε τον φάκελο με τις βιβλιοθήκες (αν φτιάξεις)
+venv/
+env/
