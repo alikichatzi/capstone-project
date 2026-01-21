@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# In[1]:
+
+
+#!/usr/bin/env python
+# coding: utf-8
+
 # In[17]:
 
 
@@ -113,9 +119,9 @@ schema = [
     bigquery.SchemaField('rental_rate', 'NUMERIC'),
     bigquery.SchemaField('length', 'INTEGER'),
     bigquery.SchemaField('replacement_cost', 'NUMERIC'),
-    bigquery.SchemaField('rating', 'STRING')
-    bigquery.SchemaField('last_update', 'TIMESTAMP')
-    bigquery.SchemaField('special_features', 'JSON')
+    bigquery.SchemaField('rating', 'STRING'),
+    bigquery.SchemaField('last_update', 'TIMESTAMP'),
+    bigquery.SchemaField('special_features', 'STRING'),
     bigquery.SchemaField('fulltext', 'STRING')
 ]
 
@@ -152,7 +158,7 @@ else:
     print(f"Table {full_table_id} did not exist. Created and data loaded.")
 
 
-# In[78]:
+# In[ ]:
 
 
 # Αντικατέστησε το "το_δικό_σου_όνομα.ipynb" με το πραγματικό όνομα του αρχείου σου
@@ -162,6 +168,10 @@ get_ipython().system('python -m jupyter nbconvert --to python "stg_film.ipynb"')
 # In[ ]:
 
 
+
+
+
+# In[ ]:
 
 
 
